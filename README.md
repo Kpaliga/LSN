@@ -1,20 +1,19 @@
 # LSN
 
-Wersja Javy: **17**
+Java: **17**
 
-Użyte narzędzia: **Lombok**
+Tools: **Lombok**
 
-# Szczegóły rozwiązania
+# ANG Details
 
-Złożoność obliczeniowa: **O(n log n)**
+Computational complexity: **O(n log n)**
 
-Strumienie w metodzie distinct() i tak zwykle używają HashSet.
-Pozwalają nam również na użycie parallel() oraz sorted().
-Dodatkowo są znacznie czytelniejsze.
+Streams in the distinct() method usually use HashSet anyway.
+They also allow us to use parallel() and sorted().
+Additionally, they are much more readable.
 
-Są sytuacje w których takie rozwiązanie byłoby bezsensowne.
-Na dodatek nie możemy łatwo kontrolować szczegółów implementacji w strumieniu.
-Natomiast, jeśli input jest naprawdę tak ogromny, to aktualne rozwiązanie zdaję się być w porządku.
+There are situations in which such a solution would make no sense. (small amount of data)
+In addition, we cannot easily control the implementation details using java stream API.
+However, if the input is really that huge, the current solution seems fine.
 
-**Proszę nie brać pod uwagę funkcji wczytującej, prawdziwy use case i tak korzystał by z pliku** 
-
+**Please ignore the loading function, a real use case would use the file anyway**
