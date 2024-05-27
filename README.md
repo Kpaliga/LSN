@@ -4,7 +4,7 @@ Java: **17**
 
 Tools: **Lombok**
 
-# ANG Details
+# Details
 
 Computational complexity: **O(n log n)**
 
