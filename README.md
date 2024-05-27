@@ -1,2 +1,2 @@
 # LSN
-Zadania zdecydowałem się umieścić na osobnych branchach, pliki Read.me się różnią.
+Zadania zdecydowałem się umieścić na osobnych branchach, pliki Readme się różnią.
