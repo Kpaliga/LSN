@@ -1,15 +1,14 @@
 # LSN
 
-Wersja Javy: **17**
+Java: **17**
 
-Użyte narzędzia: **Lombok**
+Tools: **Lombok**
 
-# Szczegóły rozwiązania
+# ANG Details
 
-Złożoność obliczeniowa: **O(V + e)**
+Computational complexity: **O(V + e)**
 
-Użyłem algorytmu przeszukiwania w głąb. Myślę że użycie innych struktór danych mogłoby podkręcić wydajność,
-natomiast wpłynełoby to mocno na czytelność kodu.
+I used a depth-first search algorithm. I think using other data structures could improve performance,
+however, it would strongly affect the readability of the code.
 
-**Proszę nie brać pod uwagę funkcji wczytującej, prawdziwy use case i tak korzystał by z pliku** 
-
+**Please ignore the loading function, a real use case would use the file anyway**
