@@ -1,20 +1,20 @@
 # LSN
 
-Wersja Javy: **17**
+Java: **17**
 
-Użyte narzędzia: **Lombok**
+Tools: **Lombok**
 
-# Szczegóły rozwiązania
+# ANG Details
 
-Złożoność obliczeniowa: **O(n)**
+Computational complexity: **O(n)**
 
-Moim zdaniem niezbyt zrozumiały kod, ale to wydajność miała byc priorytetowa.
+In my opinion, the code is a bit tricky, but performance was supposed to be the priority.
 
-Zakładamy że inputem mogą być tylko liczby całkowitę od 0 do 13.
-Zliczamy wystąpienia liczby n, **wpisując je w n-ty index tablicy wystąpień.**
-Następnie uświadamiamy sobie, że po cyfrze "6" nie istnieje już para liczb dająca sumę "13".
-Jeśli na miejscu [13 - n] (n = aktualnie sprawdzana liczba z przedziału od 0 do 6), występuje coś innego niż zero, oznacza to że powinniśmy tyle razy wyświetlić taką parę.
-Wpisana w ten idex liczba, to w końcu ilość wystąpień.
+We assume that the input can only be integers from 0 to 13.
+We count the occurrences of the number n by **writing them into the nth index of the occurrence table.**
+Then we realize that after the digit "6" there is no longer a pair of numbers giving the sum "13".
+If something other than zero occurs in the place [13 - n] (n = the currently checked number from 0 to 6), 
+it means that we should display such a pair that many times.
+The number entered in this idex is, after all, the number of occurrences.
 
-**Proszę nie brać pod uwagę funkcji wczytującej, prawdziwy use case i tak korzystał by z pliku** 
-
+**Please ignore the loading function, a real use case would use the file anyway**
