@@ -14,7 +14,7 @@ Dodatkowo są znacznie czytelniejsze.
 
 Są sytuacje w których takie rozwiązanie byłoby bezsensowne.
 Na dodatek nie możemy łatwo kontrolować szczegółów implementacji w strumieniu.
-Natomiast jeśli input jest tak ogromny, to rozwiązanie zdaję się być w porządku.
+Natomiast, jeśli input jest naprawdę tak ogromny, to aktualne rozwiązanie zdaję się być w porządku.
 
 **Proszę nie brać pod uwagę funkcji wczytującej, prawdziwy use case i tak korzystał by z pliku** 
 
