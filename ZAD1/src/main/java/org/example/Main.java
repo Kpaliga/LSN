@@ -19,6 +19,7 @@ public class Main {
     private static void displayPairsThatSumUpTo13(@NonNull Map<Integer, Long> occurrences) {
         Set<Integer> keys = occurrences.keySet()
                 .stream()
+                .parallel()
                 .sorted()
                 .collect(Collectors.toCollection(LinkedHashSet::new)); //O(1)
 
