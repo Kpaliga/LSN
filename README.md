@@ -8,13 +8,8 @@ Tools: **Lombok**
 
 Computational complexity: **O(n)**
 
-In my opinion, the code is a bit tricky, but performance was supposed to be the priority.
-
-We assume that the input can only be integers from 0 to 13.
-We count the occurrences of the number n by **writing them into the nth index of the occurrence table.**
-Then we realize that after the digit "6" there is no longer a pair of numbers giving the sum "13".
-If something other than zero occurs in the place [13 - n] (n = the currently checked number from 0 to 6), 
-it means that we should display such a pair that many times.
-The number entered in this idex is, after all, the number of occurrences.
-
+By using an iterator, we don't have to worry about searching for pairs in both directions.
+LinkedHashSet: It maintains the insertion order of elements during iteration. 
+The time complexity for basic operations is almost the same as HashSet, i.e., O(1).
+Modern JVMs know how to optimize Integers using auto-boxing, but as I sad below:
 **Please ignore the loading function, a real use case would use the file anyway**
