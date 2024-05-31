@@ -30,9 +30,8 @@ public class Main {
         while (iterator.hasNext()) {
             key = iterator.next();
             complement = 13 - key;
-
             if (keys.contains(complement)) {
-                for (int j = 0; j < occurrences.get(key); j++) {
+                for (int j = 0; j < occurrences.get(key) * occurrences.get(complement); j++) {
                     System.out.println(key + " " + complement);
                 }
             }
